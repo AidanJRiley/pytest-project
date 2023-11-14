@@ -57,8 +57,35 @@ It returns a time of 1 minute 30 seconds
 """
 estimate_reading_time(text of 300 words) => [1 minute 30 seconds]
 
+'''
+Given a text of 500 words
+It returns a time of 2 minutes 30 seconds
+'''
+estimate_reading_time(text of 500 words) => [2 minutes 30 seconds]
 
+'''
+Given a text of 400 words
+It returns a time of 2 minutes
+'''
+estimate_reading_time(text of 400 words) => [2 minutes]
 
+'''
+Given a text of 3 words
+It returns a time of 1 second
+'''
+estimate_reading_time(text of 3 words) => [1 second]
+
+'''
+Given a text of 203 words
+It returns a time of 1 minute 1 second
+'''
+estimate_reading_time(text of 203 words) => [1 minute 1 second]
+
+'''
+Given a text of 403 words
+It returns a time of 2 minutes 1 second
+'''
+estimate_reading_time(text of 403 words) => [2 minutes 1 second]
 
 _Encode each example as a test. You can add to the above list as you go._
 
