@@ -107,6 +107,8 @@ todo.add_task("Water plants")
 todo.add_task("Eat chocolate")
 todo.show_todo_list() => ['Bake a cake','Water plants','Eat chocolate']
 
+
+
 ```
 
 _Encode each example as a test. You can add to the above list as you go._
